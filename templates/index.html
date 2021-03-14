@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-blue-100">
+    <header>
+        
+        <div class="flex p-4 justify-center md:justify-start bg-indigo-400">
+            <div
+                class="transition duration-500 ease-in border-b-4 border-transparent hover:border-b-4 transform hover:border-white focus:border-b-4 focus:border-white active:border-b-4 active:border-white">
+                <a href="/s.url">
+                    <p class='text-3xl text-white font-bold px-2'>URL Shortener</p>
+                </a>
+            </div>
+        
+        </div>
+        
+       
+        
+        
+    </header>
+    <main>
+        <div class="flex justify-center m-4 p-4">
+            <p class = "text-5xl font-bold text-purple-600">Shorten any web url with ease.</p>
+        </div>
+        <div class = "flex justify-center m-2 p-2">
+            <form action="" method = "post">
+                <input type = "text" name="url"
+                    class="border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent h-10 w-80 text-xl p-4 text-center rounded shadow-md"
+                    placeholder="Enter url here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter url here'">
+                <button value = "submit"
+                    class="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 rounded-xl m-4 p-2 text-xl font-semibold text-white shadow-md"
+                    type="submit">
+                    Generate
+                </button>
+            </form>
+            
+        </div>
+        
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
